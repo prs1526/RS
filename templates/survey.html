@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>survey</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='survey.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Cagliostro|Dancing+Script|Dosis|Gloria+Hallelujah|IBM+Plex+Sans+Condensed|Indie+Flower|Josefin+Sans|Karla|Lobster|Mina|Nanum+Gothic|Open+Sans|Pacifico|Roboto|Roboto+Condensed|Shadows+Into+Light|Signika|Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+      <div class="contain">
+        <div class="survey-title">
+            Survey
+        </div>
+        <div class="question-wrapper">
+          <div class="question-title">
+            Q.1 How experienced are you to programming?
+          </div>
+          <div class="options">
+            <div class="option">
+              <input type="radio" name="experience" value="1"> beginner
+            </div>
+            <div class="option">
+            <input type="radio" name="experience" value="2"> intermediate
+            </div>
+            <div class="option">
+            <input type="radio" name="experience" value="3"> advanced
+            </div>
+            <div class="option">
+            <input type="radio" name="experience" value="4"> experts
+            </div>.
+          </div>
+        </div>
+
+        <div class="question-wrapper">
+          <div class="question-title">
+            Q.2 which programming language have you studied before?
+          </div>
+          <div class="options">
+            <div class="option">
+              <input type="radio" name="language" value="1"> c
+            </div>
+            <div class="option">
+            <input type="radio" name="language" value="2"> c++
+            </div>
+            <div class="option">
+            <input type="radio" name="language" value="3"> java
+            </div>
+            <div class="option">
+            <input type="radio" name="language" value="4"> python
+            </div>.
+          </div>
+        </div>
+<div class="button-area">
+  <div class="submit">
+      <input type="submit" name="submit" class="btn-success">
+  </div>
+    <div class="skip">
+        <button type="button" class="btn btn-warning"> skip</button>
+    </div>
+</div>
+
+      </div>
+  </body>
+</html>
